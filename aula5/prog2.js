@@ -1,2 +1,2 @@
 let valor = 8;
-document.write(valor);
+document.write('o conteúdo vale: ' + valor);
