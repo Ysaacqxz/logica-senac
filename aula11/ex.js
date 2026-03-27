@@ -93,6 +93,7 @@ class persona {
         this.energia+=ponto
         console.log('Ganhou ' + ponto + ' pontos de energia')
         console.log('energia total: ' + this.energia)
+        if (this.energia=100){persona.subirNivel}
     }
     diminuirEnergia(ponto){
         if (this.energia>0){
@@ -122,8 +123,7 @@ console.log(pa)
 pa.aumentarEnergia(75)
 pa.subirNivel()
 pa.verificarEnergia()
-pa.aumentarEnergia(30)
-pa.diminuirEnergia(25)
+
 
 
 
